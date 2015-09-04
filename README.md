@@ -21,4 +21,6 @@
     
     adb shell reboot
 
-通过命令su_client <command> 来执行root指令
+通过命令su_client <command> 来执行root指令,例如:
+    
+    su_client chmod 777 /dev/input/event0
