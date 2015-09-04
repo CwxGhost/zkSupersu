@@ -6,10 +6,10 @@
 末尾加上
 
     service su_server /system/bin/su_server
-    class main
-    user root
-    group root
-    oneshot
+        class main
+        user root
+        group root
+        oneshot
     
 重新编译刷入image
 
